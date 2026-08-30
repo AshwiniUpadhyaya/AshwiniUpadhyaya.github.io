@@ -548,6 +548,20 @@
         "Crafted an adaptive, clean, mobile-first UI in pure HTML, CSS, and JavaScript."
       ],
       stack:["HTML","CSS","JavaScript","REST API"]
+    },
+    {
+      id:"rag", name:"RAG QA System", tag:"AI · LLM",
+      kicker:"Personal Project · Applied AI",
+      title:"RAG QA System with Citation Grounding",
+      role:"Solo", period:"Jul 2026", domain:"Retrieval-Augmented Generation",
+      lead:"A question-answering system that reads your own documents and answers questions about them by retrieving the actual relevant passages first, so the model can only answer from grounded sources — with citations — instead of relying on memory and risking hallucination.",
+      points:[
+        "Built a retrieval-augmented generation pipeline using ChromaDB and Sentence-Transformers to ground LLM answers in source documents via semantic search and cosine similarity.",
+        "Designed a confidence-scoring layer that routes each query between document retrieval and live web search based on similarity thresholds — preventing hallucination and ensuring accurate fallback when documents lack the answer.",
+        "Deployed a Streamlit web app on Streamlit Community Cloud with secure cloud-based secrets management.",
+        "Integrated the Google Gemini API to generate grounded, citation-based answers from retrieved context."
+      ],
+      stack:["Python","ChromaDB","Sentence-Transformers","Streamlit","Google Gemini API","Semantic Search"]
     }
   ];
 
